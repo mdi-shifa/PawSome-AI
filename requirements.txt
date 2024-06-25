@@ -1,12 +1,12 @@
 streamlit==1.28.2
 streamlit-option-menu==0.3.6
-google-generativeai==0.4.1
+google-generativeai
 python-dotenv==1.0.1
 langchain==0.2.3
 PyPDF2==3.0.1   
 chromadb==0.5.0
 faiss-cpu==1.7.4
-langchain-google-genai==1.0.1
+langchain-google-genai
 pandas==1.5.3
 beautifulsoup4==4.12.2
 selenium==4.21.0
