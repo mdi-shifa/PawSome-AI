@@ -11,7 +11,7 @@ def presc_analyze():
     load_dotenv()
 
     # Configure the API key
-    genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+    genai.configure(api_key= st.secrets["api"])
 
     # Function to load Gemini Vision Pro model and get response
     def get_gemini_response(input_prompt, image_data, user_prompt):
